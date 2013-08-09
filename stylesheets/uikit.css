@@ -2,7 +2,7 @@
 
 /* LESS related */
 /*
- * Component:		Variables
+ * Component: 	Variables
  * Description:		Defines all color and style related values as variables
  *					to allow easy customization for the most common cases.
  ========================================================================== */
@@ -198,11 +198,11 @@ html {
 body {
   margin: 0;
 }
-
+/*
 #container {
   background: transparent url(../images/highlight-bg.jpg) 70% 0 no-repeat;
   min-height: 595px;
-}
+}*/
 
 .inner {
   width: 800px;
@@ -494,6 +494,8 @@ table {
 html {
   font-size: 14px;
 }
+
+/*
 body {
   font-size: 1em;
   line-height: 1.5; 
@@ -502,6 +504,17 @@ body {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
 }
+*/
+/*wayllen*/
+body {
+  font-size: 1em;
+  line-height: 1.5; 
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  color: #6d6d6d;
+}
+
+
 /* Only phones */
 @media (max-width: 767px) {
   /*
@@ -1604,7 +1617,7 @@ iframe {
  ========================================================================== */
 .uk-comment-meta {
   margin: 2px 0 0 0;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 16px;
   color: #999999;
 }
@@ -1615,6 +1628,7 @@ iframe {
  */
 .uk-comment-body > :last-child {
   margin-bottom: 0;
+  color: #444444;
 }
 /* Sub-object `uk-comment-list`
  ========================================================================== */
@@ -4844,7 +4858,7 @@ a.uk-close:hover {
   padding: 0 5px;
   background: #00a8e6;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 20px;
   color: #ffffff;
   text-align: center;
@@ -4868,18 +4882,21 @@ a.uk-close:hover {
  */
 .uk-badge-success {
   background-color: #8cc14c;
+  font-size: 14px;
 }
 /*
  * Modifier: `uk-badge-warning`
  */
 .uk-badge-warning {
   background-color: #faa732;
+  font-size: 14px;
 }
 /*
  * Modifier: `uk-badge-danger`
  */
 .uk-badge-danger {
   background-color: #da314b;
+  font-size: 14px;
 }
 /* Hooks
  ========================================================================== */
